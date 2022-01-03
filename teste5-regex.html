@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Testando pattern</title>
+</head>
+<body>
+    <form>
+        <input pattern="[0-9]*"> <!-- O atributo pattern do input recebe expressões regulares, e quando o formulário for submetido e o valor digitado não for compatível com a expressão "que no caso deve ser apenas números" o navegador irá exibir automaticamente o campo como inválido-->
+        <input type="submit" value="Enviar dados">
+    </form>
+</body>
